@@ -9,13 +9,21 @@ nav {
 
 
 
-.nav-link {
+nav .nav-link {
     color: gray!important;
     font-size: 1.3rem;
 }
 
 .nav-link:hover {
     color:  #fd5e53!important;
+}
+
+.whatwedo .nav-link{
+    color: gray!important;
+}
+
+.whatwedo .nav-link:hover{
+    text-decoration: underline #fd5e53;
 }
 
 .fa {
