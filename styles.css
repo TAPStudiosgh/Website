@@ -1,6 +1,11 @@
 .nav-item {
     padding: 5px;
-    
+
+}
+
+.navbar-brand {
+    color: #fd5e53!important;
+    font-weight: bold;
 }
 
 .slider-image {
@@ -10,6 +15,8 @@
 
 body {
     overflow-x: hidden;
+    font-family: 'Mulish', sans-serif;
+
 }
 section {
     padding: 30px 20px;
@@ -19,11 +26,18 @@ section {
     padding: 20px;
 }
 .image-section {
+    padding: 50px;
+    background-color:  #f4f3f3;
     text-align: center;
 }
 
+.about {
+    padding-top: 25px ;
+    background-color: #f4f3f3;
+}
 .about-heading {
-    color: blueviolet;
+    font-family: 'Oswald', sans-serif;
+    color: #fd5e53;
     font-weight: bold;
 }
 
@@ -31,21 +45,32 @@ carousel-indicators {
     padding: 20px;
 }
 
-
+.minor-heading {
+    font-family: 'Oswald', sans-serif;
+    
+    color: #fd5e53;
+}
+.whatwedo .nav li a {
+    color: #fd5e53;
+}
 .whatwedo-image {
     width: 400px;
+    height: 500px
     margin: 20px 70px;
 }
 .section-heading {
-    color: blueviolet;
+    font-family: 'Oswald', sans-serif;
+    color: #fd5e53;
     font-weight: bold;
     text-align: center;
 }
 /* Footer */
 footer {
+
+    background-color: #fd5e53;
+    color: white;
+    padding: 10px;
     text-align: center;
     bottom: 0;
     text-align: center!important;
 }
-
-
