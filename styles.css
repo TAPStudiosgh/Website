@@ -1,3 +1,6 @@
+nav {
+ box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
 .nav-item {
     padding: 5px;
 
@@ -10,7 +13,7 @@
 
 .slider-image {
     width: 400px;
-    height: 50vh;
+    height: 70vh;
 }
 
 body {
@@ -21,11 +24,8 @@ body {
 section {
     padding: 30px 20px;
 }
-.section-image {
-    width: 350px;
-    padding: 20px;
-}
-.image-section {
+
+.whatwedo .carousel-item, .section-body{
     padding: 50px;
     background-color:  #f4f3f3;
     text-align: center;
@@ -46,17 +46,18 @@ carousel-indicators {
 }
 
 .minor-heading {
+  margin: 10px 0;
     font-family: 'Oswald', sans-serif;
-    
+
     color: #fd5e53;
 }
 .whatwedo .nav li a {
     color: #fd5e53;
 }
-.whatwedo-image {
-    width: 400px;
-    height: 500px
-    margin: 20px 70px;
+.section-image, .whatwedo-image {
+    width: 70%;
+    margin: 20px 15%;
+
 }
 .section-heading {
     font-family: 'Oswald', sans-serif;
