@@ -86,7 +86,7 @@ footer {
 @media screen and (max-width:800px) {
 
 .navbar-collapse {
-  height: 100vh;
+  height: 100%;
   overflow-y: scroll;
 }
 }
