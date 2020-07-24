@@ -8,6 +8,9 @@
     height: 50vh;
 }
 
+body {
+    overflow-x: hidden;
+}
 section {
     padding: 30px 20px;
 }
