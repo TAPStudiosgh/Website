@@ -25,10 +25,14 @@ section {
     padding: 30px 20px;
 }
 
-.whatwedo .carousel-item, .section-body{
+.whatwedo .carousel-item{
     padding: 50px;
     background-color:  #f4f3f3;
     text-align: center;
+}
+
+.section-body {
+  text-align: center;
 }
 
 .about {
@@ -74,4 +78,13 @@ footer {
     text-align: center;
     bottom: 0;
     text-align: center!important;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:800px) {
+
+.navbar-collapse {
+  height: 100vh;
+}
 }
