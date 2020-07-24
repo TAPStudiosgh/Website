@@ -7,6 +7,36 @@ nav {
 
 }
 
+
+
+.nav-link {
+    color: gray!important;
+    font-size: 1.3rem;
+}
+
+.nav-link:hover {
+    color:  #fd5e53!important;
+}
+
+.fa {
+    margin: 5px 0;
+
+}
+.fa-facebook:hover{
+    color: blue;
+}
+
+.fa-instagram:hover{
+    color: #fd5e53 ;
+   
+}
+
+.fa-twitter:hover{
+    color: blue;
+}
+
+
+
 .navbar-brand {
     color: #fd5e53!important;
     font-weight: bold;
@@ -53,11 +83,12 @@ carousel-indicators {
 .minor-heading {
   margin: 10px 0;
     font-family: 'Oswald', sans-serif;
-
-    color: #fd5e53;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: indianred;
 }
 .whatwedo .nav li a {
-    color: #fd5e53;
+    color: indianred;
 }
 .section-image, .whatwedo-image {
     width: 70%;
@@ -70,17 +101,69 @@ carousel-indicators {
     font-weight: bold;
     text-align: center;
 }
+
+.contactus{
+    padding: 50px;
+
+}
+
+.contactus input, .contactus textarea{
+    margin: 10px;
+    background: none;
+    background-color: #f4f3f3;
+}
+
+
+
+.form-content{
+ text-align: center;
+}
+
 /* Footer */
 footer {
 
-    background-color: #fd5e53;
-    color: white;
-    padding: 100px;
+    background-color:  #fd5e53;
+    color:white;
+    box-shadow: 10px 0 10px 0 rgba(0, 0, 0, 0.3);
+    padding: 10px;
     text-align: center;
     bottom: 0;
     text-align: center!important;
 }
 
+.footer-heading {
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover{
+    color: white;
+}
+
+
+.footer-item {
+    padding: 20px 30px;
+    text-align: left;
+}
+
+.footer-content {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer form {
+    text-align: left;
+}
 /* Media Queries */
 
 @media screen and (max-width:800px) {
