@@ -1,0 +1,51 @@
+.nav-item {
+    padding: 5px;
+    
+}
+
+.slider-image {
+    width: 400px;
+    height: 50vh;
+}
+
+section {
+    padding: 30px 20px;
+}
+.section-image {
+    width: 350px;
+    padding: 20px;
+}
+.image-section {
+    text-align: center;
+}
+
+.about-heading {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+carousel-indicators {
+    padding: 20px;
+}
+
+
+.whatwedo-image {
+    width: 400px;
+    margin: 20px 70px;
+}
+.section-heading {
+    color: blueviolet;
+    font-weight: bold;
+    text-align: center;
+}
+/* Footer */
+footer {
+    text-align: center;
+    bottom: 0;
+    text-align: center!important;
+}
+
+
+footer .copyright {
+    
+}
